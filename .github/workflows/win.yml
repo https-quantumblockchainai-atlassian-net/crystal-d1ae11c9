@@ -283,7 +283,7 @@ jobs:
           echo "SOURCE_DATE_EPOCH=$(Get-Date -Millisecond 0 -UFormat %s)" >> ${env:GITHUB_ENV}
 
       - name: Download Crystal object file
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: objs
       - name: Build LLVM extensions

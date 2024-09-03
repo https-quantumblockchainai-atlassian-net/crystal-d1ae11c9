@@ -28,7 +28,7 @@ jobs:
       - name: Download Crystal source
         uses: actions/checkout@v2
       - name: Download Crystal executable
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: crystal-aarch64-musl
       - name: Mark downloaded compiler as executable
@@ -45,7 +45,7 @@ jobs:
       - name: Download Crystal source
         uses: actions/checkout@v2
       - name: Download Crystal executable
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: crystal-aarch64-musl
       - name: Mark downloaded compiler as executable
@@ -79,7 +79,7 @@ jobs:
       - name: Download Crystal source
         uses: actions/checkout@v2
       - name: Download Crystal executable
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: crystal-aarch64-gnu
       - name: Mark downloaded compiler as executable
@@ -96,7 +96,7 @@ jobs:
       - name: Download Crystal source
         uses: actions/checkout@v2
       - name: Download Crystal executable
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: crystal-aarch64-gnu
       - name: Mark downloaded compiler as executable
